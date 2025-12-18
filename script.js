@@ -2,7 +2,7 @@ let noCount = 0;
 
 function yes() {
     document.getElementById("question").innerText =
-        "Aminado ka na 😎";
+        "KUPAL KA TALAGA BOY 😎";
     document.getElementById("result").innerText =
         "Salamat sa katotohanan boss 😂";
 }
@@ -22,9 +22,10 @@ function no() {
     } else {
         // LOOP FOREVER
         document.getElementById("question").innerText =
-            "KUPAL KA PA RIN BA BOSS!!";
+            "KUPAL KA PA RIN BOSS!!";
     }
 
     document.getElementById("result").innerText =
         "Hindi button clicked: " + noCount + " times";
 }
+
